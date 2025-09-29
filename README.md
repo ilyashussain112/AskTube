@@ -6,7 +6,7 @@ and answers queries using Groq's LLM.
 
 ---
 
-## 🚀 Features
+##Features
 - Extracts YouTube video transcripts automatically  
 - Splits text into chunks for better retrieval  
 - Stores embeddings in FAISS vector database  
@@ -15,7 +15,7 @@ and answers queries using Groq's LLM.
 
 ---
 
-## 📦 Installation
+## Installation
 
 1. Clone this repository:
    ```bash
