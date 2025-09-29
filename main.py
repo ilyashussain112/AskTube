@@ -21,7 +21,7 @@ def document_loader(url):
     return docs[0].page_content
   except TranscriptsDisabled:
     print("No captions available for this video.")
-s = document_loader(input("Enter Youtube URL: "))
+s = document_loader(input("Enter Youtube Video URL: "))
 
 if not s:
     raise ValueError("No transcript available, cannot continue.")
